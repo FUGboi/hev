@@ -1,0 +1,277 @@
+/* ---------- UNI ---------- */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(10, 10, 10);
+    font-family: 'Courier New', Courier, monospace;
+    flex-shrink: 0;
+    height: 100vh;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+p {
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+h1 {
+    color: rgb(255, 127, 39);
+    font-size: 32px;
+}
+
+h2 {
+    color: whitesmoke;
+    font-size: 32px;
+    padding-top: 30px;
+
+}
+
+h3 {
+    color: rgb(202, 92, 11);
+    font-size: 24px;
+}
+
+h4 {
+    color: rgb(202, 92, 11);
+    font-size: 32px;
+}
+
+hr {
+    border-color: rgb(255, 127, 39);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+td {
+    width: 100%;
+}
+
+/* ---------- NAV ---------- */
+
+#navbar {
+    background-color: rgb(202, 92, 11);
+    border-bottom: solid rgb(49, 49, 49) 5px;
+    border-left: solid rgb(49, 49, 49) 5px;
+    border-right: solid rgb(49, 49, 49) 5px;
+    width: 90%;
+    height: 100px;
+
+    top: 0;
+    left: 0;
+
+    text-align: center;
+
+    z-index: 1;
+}
+
+.nav-link {
+    display: inline-block;
+    width: 100px;
+    height: 55px;
+    color: White;
+    text-align: center;
+    line-height: 55px;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 800;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+.nav-link:hover {
+    color: bisque;
+}
+
+/* ---------------------- SVE OSTALO ---------------------- */
+
+#main {
+    background-color: rgb(32, 32, 32);
+    width: 90%;
+    height: 100%;
+    margin-top: 30px;
+    border-top: solid rgb(49, 49, 49) 5px;
+    border-left: solid rgb(49, 49, 49) 5px;
+    border-right: solid rgb(49, 49, 49) 5px;
+    padding-bottom: 15px;
+}
+
+#naslov {
+    background-color: white;
+    margin-left: 75px;
+    margin-top: 5px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    float: left;
+    line-height: 5px;
+    border: solid rgb(255, 127, 39) 2px;
+    font-weight: 900;
+    text-align: center;
+}
+
+#podnaslov {
+    font-weight: 800;
+}
+
+#logo {
+    float: right;
+    width: 80px;
+    height: 80px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+#mod {
+    padding-left: 45px;
+}
+
+#footer {
+    width: 90%;
+    background-color: rgb(202, 92, 11);
+    text-align: justify;
+    padding: 15px;
+    font-weight: 900;
+    border-top: solid white 3px;
+    border-right: solid white 3px;
+    border-left: solid white 3px;
+    height: auto;
+    bottom: 0;
+}
+
+#ime {
+    color: whitesmoke;
+}
+
+/* ---------- POCETNA ---------- */
+
+
+#radnik {
+    float: left;
+    margin-left: 20px;
+    width: 90%;
+    object-fit: contain;
+    border-right: solid black 25px;
+    border-bottom: solid black 10px;
+}
+
+#ljeviPOC {
+    width: 60%;
+}
+
+#desniPOC {
+    width: 40%;
+    text-align: inherit;
+}
+
+/* ---------- MODELI ---------- */
+
+#marke {
+    padding-top: 50px;
+    padding: 15px;
+}
+
+#tekstIV {
+    text-align: right;
+    vertical-align: text-top;
+}
+
+#IV {
+    background-image: url("./Components/markaIV.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 432px;
+    ;
+
+}
+
+#tekstV {
+    text-align: left;
+    vertical-align: text-top;
+}
+
+#V {
+    background-image: url("./Components/markaV.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 432px;
+    ;
+}
+
+#tabHR {
+    width: 185%;
+}
+
+.spec {
+    font-size: 26px;
+    background-color: rgb(10, 10, 10);
+    border: 2px solid whitesmoke;
+    width: fit-content;
+    padding: 15px;
+}
+
+#cetri {
+    float: right;
+}
+
+/* ---------- SUČELJE ---------- */
+
+#bootup {
+    border: solid rgb(49, 49, 49) 5px;
+    margin: 20px;
+    height: 780px;
+}
+
+#lista {
+    width: 650px;
+    text-align: left;
+    line-height: 35px;
+    padding: 10px;
+    font-weight: 900;
+    color: whitesmoke;
+    font-size: 24px;
+    background-color: rgb(202, 92, 11);
+    border: solid rgb(49, 49, 49) 5px;
+}
+
+#suceljeP {
+    font-size: 28px;
+    margin: 50px;
+    text-align: center;
+}
+
+/* ---------- KONTAKT ---------- */
+
+#forma {
+    background-color: rgb(49, 49, 49);
+    width: 50%;
+    padding: 30px;
+    margin: 30px;
+    font-size: 20px;
+    border: solid rgb(202, 92, 11) 5px;
+    font-weight: 900;
+    color: white;
+    text-align: left;
+    padding-left: 110px;
+    margin-bottom: 80px;
+}
